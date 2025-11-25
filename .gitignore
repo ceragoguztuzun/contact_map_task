@@ -1,0 +1,111 @@
+
+jupyter*
+*nfs*
+__pycache__/
+*.png
+legacy
+scripts/__pycache__
+scripts/.ipynb*
+puffin_manuscript
+experiments/CNN/__pycache__
+experiments/CNN/*.ipynb*
+experiments/CNN/experiments
+experiments/GENERator/GENERator
+# experiments/Evo2/*.sh
+experiments/Evo2_CMP_ETGP_eQTLP
+
+# ---- Python bytecode ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual envs ----
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ---- Build / packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Test / coverage ----
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- IDEs / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- Optional: local data / outputs (common for ML) ----
+data/
+datasets/
+outputs/
+runs/
+checkpoints/
+wandb/
+mlruns/
+tensorboard/
+
+# ---- Secrets ----
+.env
+.env.*
+
+*.cu
+*.hpp
+*.cuh
+*.h
+*.hxx
+*.hxx.in
+*.hxx.in.h
+*.hxx.in.h.in
+*.hxx.in.h.in.h
+*.hxx.in.h.in.h.in
+*.hxx.in.h.in.h.in.h
+*.hxx.in.h.in.h.in.h.in
+*.hxx.in.h.in.h.in.h.in.h
+*.zip
+*.tfr 
+*.bed
+*.json
+dnalongbench_data/
+
+# Data (too large for git)
+dnalongbench_data/
+
+# Model checkpoints (optional - commit if small)
+*.pt
+model.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
