@@ -39,7 +39,9 @@ mkdir -p contact_map_prediction
 UNZIP_DISABLE_ZIPBOMB_DETECTION=TRUE unzip -o cmp.zip -d contact_map_prediction
 ```
 
-**Note**: Since i didn’t have enough disk space i continued with partial .tfr files downloaded. 
+**Note**: Since i didn’t have enough disk space i continued with partial .tfr files downloaded. Currently it looks like: 
+<img src="data_path.png" alt="DNALongBench Contact Map data" width="210">
+
 
 ### 4. Verify Installation
 
@@ -68,7 +70,9 @@ python train_eval_cmp.py --model "my_models:SparseTransformer" --steps 1000
 # Valid | PCC: 0.5234 | SCC: 0.6127
 # Test  | PCC: 0.5189 | SCC: 0.6043
 ```
-That's all.
+That's all to run the task minimally. Information below is extra.
+
+
 ---
 
 ## Model Requirements
