@@ -104,6 +104,7 @@ python train_eval_cmp.py \
 ```
 
 ### Different Cell Type
+!!! We will need to run this for 5 different cell types (subset): HFF, H1hESC, GM12878, IMR90, HCT116 
 ```bash
 python train_eval_cmp.py \
   --model "my_models:MyModel" \
